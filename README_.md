@@ -74,7 +74,7 @@ The non-numerical features were converted to factors because it makes characteri
 
 A correlation matrix of all the numerical variables consisting of the length of M1 motorway roads and average speeds is visualised below:
 
-![Correlation Matrix](outputs/figures/figure_58.png)
+![Correlation Matrix](plots/figure_58.png)
 
 No strong correlation was found, except in `Length_PUJ0` and `Length_SDJ0`, with a moderate positive correlation.
 
@@ -84,16 +84,16 @@ Also, a correlation matrix between the average speeds is visualised below:
 
 The following visualisations show the data distributions of different road sections of M1 motorways:
 
-![Boxplot 1](outputs/figures/figure_67.png)  
-![Boxplot 2](outputs/figures/figure_68.png)  
-![Boxplot 3](outputs/figures/figure_69.png)  
-![Boxplot 4](outputs/figures/figure_70.png)
+![Boxplot 1](plots/figure_67.png)  
+![Boxplot 2](plots/figure_68.png)  
+![Boxplot 3](plots/figure_69.png)  
+![Boxplot 4](plots/figure_70.png)
 
 From the boxplots, there is the presence of outliers in the length of different road networks.
 
 The distribution of the length of the roads can better be described by the visualisations below:
 
-![Histogram](outputs/figures/figure_59.png)
+![Histogram](plots/figure_59.png)
 
 The histograms show that the distribution of the length of the roads is right-skewed because they are clustered more to the left side of the x-axis. This means that the mean is greater than the median in the length distributions of southbound and northbound roads.
 
@@ -109,13 +109,13 @@ As suggested by Mishra et al. (2019), it may be necessary to make approximations
 
 ### Boxplots of Speed by Day of the Week on Each of the Motorway Lanes
 
-![Boxplot Southbound](outputs/figures/figure_78.png)  
-![Boxplot Northbound](outputs/figures/figure_79.png)
+![Boxplot Southbound](plots/figure_78.png)  
+![Boxplot Northbound](plots/figure_79.png)
 
 From the boxplots, it can be seen that the speed tends to increase towards the end of the week. The average speed is found to be lowest on Tuesday, Wednesday, and Thursday along the Southbound lane and on the high side on Friday, Saturday, and Sunday. The same pattern also applied to the Northbound lanes. However, the highest average speed was recorded on Saturday.
 
-![Additional Boxplot 1](outputs/figures/figure_81.png)  
-![Additional Boxplot 2](outputs/figures/figure_82.png)
+![Additional Boxplot 1](plots/figure_81.png)  
+![Additional Boxplot 2](plots/figure_82.png)
 
 ## Sampling by Daytime
 
@@ -129,8 +129,8 @@ The sampling this time was done with a sampling size of 357, which is the closes
 
 In all the boxplots, it is evident that the average speed in all the road lanes is higher on the weekends; this could be because traffic congestion is usually less during weekends and road construction usually takes place during the weekdays.
 
-![Boxplot Weekday/Weekend 1](outputs/figures/figure_96.png)  
-![Boxplot Weekday/Weekend 2](outputs/figures/figure_97.png)
+![Boxplot Weekday/Weekend 1](plots/figure_96.png)  
+![Boxplot Weekday/Weekend 2](plots/figure_97.png)
 
 From the diagram above, most data points are clustered around the right-hand corner.
 
@@ -138,12 +138,12 @@ From the diagram above, most data points are clustered around the right-hand cor
 
 It will be reasonable to make the sample size 357, which is the closest number to ensure even sample distribution (21 days).
 
-![Boxplot Daytime 1](outputs/figures/figure_86.png)  
-![Boxplot Daytime 2](outputs/figures/figure_87.png)
+![Boxplot Daytime 1](plots/figure_86.png)  
+![Boxplot Daytime 2](plots/figure_87.png)
 
 It is essential to note that April 9th has a considerably high median. This could be because it is Easter Sunday, and there is likely minimal road congestion.
 
-![Boxplot April 9](outputs/figures/figure_98.png)
+![Boxplot April 9](plots/figure_98.png)
 
 ## Hypothesis Testing
 
