@@ -1,10 +1,10 @@
 # Introduction
 
-Traffic congestion and incidents are significant challenges many businesses face in the United Kingdom (Mall et al., 2023). One of the factors that have led to this is the recent growth in urban population, inadequate road capacity, and geographical factors (Bosona, 2020).
+Traffic congestion and incidents are significant challenges many businesses face in the United Kingdom. One of the factors that have led to this is the recent growth in urban population, inadequate road capacity, and geographical factors.
 
 This study examines information gathered from sensors placed along the M1 highways. Various statistical techniques are used to shed light on the relationships between the variables in the dataset collected, which contains real-time information regarding traffic conditions, such as speeds at various times of the day. Several visualisations, including boxplot, scatterplot, and histogram, are presented to do this and comprehend this data's distribution.
 
-This study uses the stratified random sampling technique, which categorises components of a population (traffic data) into smaller groups (Zhang et al., 2022).
+This study uses the stratified random sampling technique, which categorises components of a population (traffic data) into smaller groups.
 
 # Research Methodology and Design
 
@@ -26,7 +26,7 @@ The data was collected for a period spanning over three weeks (March 20th to Apr
 
 The sampling methodology utilised is the stratified random sampling method. At every point of analysis, the sampling size was decided using the expression below:
 Sample size = ((z^2 * p * (1 - p)) / e^2) / (1 + (z^2 * p * (1 - p)) / (N * e^2))
-(Sharma et al., 2020)
+
 
 Where:  
 - `N` = population size  
@@ -34,7 +34,7 @@ Where:
 - `z` = z-score  
 - `P` = population proportion  
 
-The desired confidence level is 95%; this means that 95% of the time, the actual population is expected to be acquired (Eridon and Mishler, 2020). This consequently means that the margin of error is 5% or 0.05, representing the degree of uncertainty in the sampling (Eridon and Mishler, 2020). The z-score corresponding to 0.95 in the standard typical distribution table is 1.96.
+The desired confidence level is 95%; this means that 95% of the time, the actual population is expected to be acquired . This consequently means that the margin of error is 5% or 0.05, representing the degree of uncertainty in the sampling . The z-score corresponding to 0.95 in the standard typical distribution table is 1.96.
 
 The default sample size can be calculated by:
 Sample size = ((z^2 * p * (1 - p)) / e^2) / (1 + (z^2 * p * (1 - p)) / (N * e^2))
